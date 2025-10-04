@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #000;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body{
+  overflow-x: hidden;
+}
+#page1 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(6, 121, 159);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#page2 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(212, 173, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw 10vw;
+}
+#page3 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(208, 230, 173);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+ width: 250px;
+ height: 250px;
+ background-color: crimson;
+}
+#page2 h2{
+  font-size: 40vw;
+  text-transform: uppercase;
+
+}
