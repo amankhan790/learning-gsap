@@ -36,9 +36,13 @@ ul {
   display: flex;
   gap: 50px;
 }
+
 h3 {
   font-size: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+h2,h1 {
+  text-transform: uppercase;
 }
