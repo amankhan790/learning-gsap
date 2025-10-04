@@ -20,7 +20,7 @@
 // })
 
 gsap.to("#page2 h2", {
-  transfrom: "translateX (-150%)",
+  transfrom: "translateX (-100%)",
   scrollTrigger: {
     trigger: "#page2",
     scroller: "body",
